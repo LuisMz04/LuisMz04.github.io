@@ -1,0 +1,111 @@
+
+* {
+  --primary-color: #6c9d59;
+  --secondary-color: #e4e4dc;
+  --background-color: #f7f8f5;
+  --text-color: #333333;
+}
+
+body {
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.head-section {
+  background-color: var(--secondary-color);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.hero-section h1 span {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+.blue-bg {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.footer-section {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+/*productos */
+.product-section {
+  padding: 100px 0;
+}
+
+.product-section h2 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.product-section .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.product-section .card:hover {
+  transform: translateY(-5px);
+}
+
+.product-section .card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-section .card-title {
+  margin-bottom: 15px; 
+}
+
+.product-section .card-text-container {
+  text-align: justify;
+}
+
+.price {
+  font-weight: bold;
+  color: var(--primary-color); 
+}
+
+/*Acerca de nosotros*/
+#about-section {
+  padding: 100px 0;
+}
+
+#about-section img {
+  max-width: 100%;
+}
+
+#about-section p {
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
